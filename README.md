@@ -37,7 +37,7 @@
 
 本系统在设计数据库时需要12个表来实现。下图为表的ER图。
 
-![image-20211130170541078](C:\Users\大坏蛋\AppData\Roaming\Typora\typora-user-images\image-20211130170541078.png)
+![image-20211130170541078](\images\image-20211130170541078.png)
 
 ## 具体功能
 
