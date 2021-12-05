@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search-form-inner.data-v-4cedc0c6 {
+  position: fixed;
+  left: 0;
+  padding: 30rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 11;
+}
+.search-form-inner .search-box.data-v-4cedc0c6 {
+  flex: 1;
+  width: 550rpx;
+  height: 60rpx;
+  padding: 0 14rpx 0 30rpx;
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+  background-color: #f4f3f7;
+}
+.search-form-inner .search-box .search-icon.data-v-4cedc0c6 {
+  width: 28rpx;
+  height: 28rpx;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAMFBMVEVHcEzPzNrPzNrOzdvPzNrPzNnOzNrNzf/PzdnPzNnPzNrPzNnW1tbPzNrT09PPzNmGgbnPAAAAD3RSTlMAbfce1uUoAqd3uUUGWws8T62yAAAAvklEQVQY02NgwASWS5W8JsN5Fv9BoBnKq9YHcz9dgHDl/0PARzCP9///L2JnEv3//wdLG/3/JA6kCvX/K4O4/f+1wao2/f8BJJn//xcAcxn//zdgYOD8/6UAzGX3/z+BgYELaiLIhgUMDKz/v0G5+f8DGBiY/v+Bcs//V0Dmvgdx0RSjGYVmEZoz0ByJ7gWwB8+BPPgRxftQQ7ihgQOVZocGnTw0PEABGzUZZFMAPHTZQYY4IIc+b8gGZC5QAQDBUYA46nAy4gAAAABJRU5ErkJggg==") no-repeat 0 0;
+  background-size: contain;
+  margin-right: 18rpx;
+}
+.search-form-inner .search-box .delete-icon.data-v-4cedc0c6 {
+  width: 38rpx;
+  height: 38rpx;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD6klEQVRYR8WXTWwbVRDH578fxLFoUSsoAloqhJDaQqE9UKLgrHnPiloKHOCQiiMCIY5UlRAFri2IAwKJEx9nEIdyoFSgyPvWm40VoQChtAeEeoj4DKAiNyjBsXcHvcqJvJtde50G9d28npn/b+fNm50Hus4L11mfNgQwOztrLy4u3kpEO4mobRjGwsLCwq8TExPhoC+UG0AptRPA01EUPU5EJQBGtxgza/FpwzDOMvNHQoif88D0BZiZmdm6vLx8koheJKJCnqBE9C8RvW3b9ulSqbTYy6cnQLVavRtAFcDunMIxM2b+xbKspxzH+SrLPxPAdd2HiOgcgO0bEe/yaRPRC0KID9PipALUarVdURR9R0TbrlH8qnunPg5LKavJeOsAlFIFZv4awL7NEF+NwcwNy7L2Oo7zW3fcNICXiej1hPgXzPwBEb0E4FAvMGbW+/0mgOeI6EjipLwvpXw+E2Bqampbu92eJ6ItCcdjUspPlFI3MvM0gPvTIDqZe0QI8Y9S6hgRfZyIExHRPinlD6vPYxnwPO84M7+VDM7M3xSLRTEyMnKlXq9vbzabARHtTQQ/H4ahMz4+3ugcXY+IDqaAnhJCvJYK4LpuDYCTkeK54eHhsobwff+WMAynieieju2Ppmk+7DjOnx3xGhEdyMjSRSnlfesAgiDY0mq1GkQ923M3xG1hGNZ1INM0R3VxdbbQzRJfFTVNc4eG1b/XtqBWq+2Pouh8jsqfsyxLjo2N/V2tVndblhWVy+WftHir1ZoCcG+OGAeFEHMxANd1jwL4PIezPtcXbdse0xDaXil1MzN7OcW1/2NSynMxAM/zHmXmqw/7LQ0AQFf7XxsEOCKl/DIGoJTSRfNtHvHVtw+C4M5ms4lKpTI/4BbsF0JciAF0KvuPPgBr++/7/kaLkIloq+4VMQD9w3VdndqsFtzzGA4NDY2Mjo5eznEMfSllObUPKKV0C9atOLZ0hysWi3KQRrS0tOQDeCAl1gkp5Vqzi3VCpdSeToHFph0iekIIcXZycvIm0zR14L6t2PO8J5n5TDcAM18pFAp36UylZqBT0fqj82yC/NMoit4FcBqAnhN6rZkoil4FcALA0YThSSHEG93P1n0NgyC4fWVl5ftNGESSkLrqHxRC6HFtbaUOJEqpUqexmP2OZZ7/mfmyaZoHdMdM2meOZJ7nPcPM7xGRlUcky0aLAzgshJhNs+k5lPq+f6jdbp8BcMdGIJh5npkrlUrlUpZ/3rH8FWY+DuCGnCB6n9+xbfvUNY3l3WJ5LiYA6gA+29SLSdob66tZo9HYYRjGLgAhgN//96tZztQPbNa3BgaOOKDDf+ESDj90wCYAAAAAAElFTkSuQmCC") no-repeat 0 0;
+  background-size: contain;
+  margin-right: 18rpx;
+  z-index: 999;
+}
+.search-form-inner .search-box .input.data-v-4cedc0c6 {
+  flex: 1;
+  font-size: 28rpx;
+  color: #252628;
+}
+.search-form-inner .search-box .placeholder.data-v-4cedc0c6 {
+  font-size: 28rpx;
+  color: #b7b5c2;
+}
+.search-form-inner .search-btn.data-v-4cedc0c6,
+.search-form-inner .cancel-btn.data-v-4cedc0c6 {
+  width: 120rpx;
+  margin-left: 30rpx;
+  padding: 0;
+  border: none;
+  font-size: 28rpx;
+  background: #fff;
+  color: #434343;
+}
+.hit_search.data-v-4cedc0c6 {
+  padding: 133rpx 32rpx 0;
+}
+.hit_search .hit_words.data-v-4cedc0c6,
+.hit_search .relative.data-v-4cedc0c6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.hit_search .keywords.data-v-4cedc0c6 {
+  color: #6b6a72;
+  display: inline-block;
+  background: #f4f3f7;
+  border-radius: 100rpx;
+  padding: 14rpx 33rpx;
+  margin: 20rpx 20rpx 0 0;
+  max-width: 260rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 22rpx;
+}
+.resulut.data-v-4cedc0c6 {
+  padding: 100rpx 0rpx;
+}
+

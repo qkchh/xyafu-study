@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-50b7804f {
+  padding-bottom: 100rpx;
+}
+.image.data-v-50b7804f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image image.data-v-50b7804f {
+  width: 50%;
+}
+.book-description.data-v-50b7804f {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.book-description .brief.data-v-50b7804f {
+  font-size: 30rpx;
+  font-weight: normal;
+  margin-bottom: 20rpx;
+}
+.book-description .brief .title.data-v-50b7804f {
+  font-weight: 700;
+  text-align: center;
+}
+.showloading.data-v-50b7804f {
+  background: #fff;
+  position: fixed;
+  text-align: center;
+  transition: .3s;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.showloading .load.data-v-50b7804f {
+  opacity: 1;
+  transition: .3s;
+  top: 0;
+}
+.showloading .loadtext.data-v-50b7804f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showloading .loadtext .text.data-v-50b7804f {
+  font-size: 28rpx;
+  opacity: .5;
+}
+.showloading .loadicon.data-v-50b7804f {
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-animation: turn .4s linear infinite;
+          animation: turn .4s linear infinite;
+  position: relative;
+  z-index: 10;
+  opacity: .6;
+}
+.showloading .loadicon.data-v-50b7804f::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border-width: 10rpx;
+  border-style: solid;
+  width: 80rpx;
+  height: 80rpx;
+  -webkit-transform: scale(-0.7);
+          transform: scale(-0.7);
+  left: 0rpx;
+  top: 0rpx;
+  z-index: 5;
+}
+.article-info.data-v-50b7804f {
+  background: #fff;
+  padding-top: 40rpx;
+  border-radius: 15rpx;
+  text-align: center;
+  font-weight: 900;
+}
+.article-info .article-detail-author.data-v-50b7804f {
+  display: flex;
+  padding: 68rpx 30rpx 68rpx 30rpx;
+  font-size: 24rpx;
+  line-height: 1;
+}
+.article-info .article-detail-author text.data-v-50b7804f {
+  font-weight: bold;
+}
+.article-info .article-detail-author view.data-v-50b7804f {
+  width: 2rpx;
+  height: 22rpx;
+  margin: 0 18rpx;
+  background-color: #ABABAB;
+}
+.article-info .article-detail-author ._span.data-v-50b7804f {
+  color: #ababab;
+}
+.article-info .article-detail-title.data-v-50b7804f {
+  font-size: 54rpx;
+  color: #3b3b3b;
+  line-height: 87rpx;
+  font-family: 'zaker-title';
+}
+.article-info .article-wrap.data-v-50b7804f {
+  padding: 0 30rpx;
+}
+.entry-content.data-v-50b7804f {
+  clear: both;
+  color: #404246;
+  margin: 0;
+  padding: 0 30rpx;
+  font-size: 36rpx;
+  line-height: 70rpx;
+  text-align: justify;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.entry-content video.data-v-50b7804f {
+  width: 100%;
+}
+.entry-content image.data-v-50b7804f {
+  width: 100%;
+}
+.item_container.data-v-50b7804f {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 40rpx;
+}
+.item_container .item_desc.data-v-50b7804f {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #888;
+  letter-spacing: 0;
+}
+.textareacontent.data-v-50b7804f {
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+  background-color: #fff;
+  z-index: 10;
+}
+.textareacontent .textheaders.data-v-50b7804f {
+  width: 100%;
+  height: 96rpx;
+  border-bottom: 1rpx solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+}
+.textareacontent .textheaders .cancel.data-v-50b7804f {
+  color: #333;
+  font-size: 32rpx;
+  line-height: 96rpx;
+  margin-left: 32rpx;
+}
+.textareacontent .textheaders .publish.data-v-50b7804f {
+  color: #d83632;
+  font-size: 32rpx;
+  line-height: 96rpx;
+  margin-right: 32rpx;
+}
+.textareacontent .textareaBox.data-v-50b7804f {
+  height: 360rpx;
+  position: relative;
+}
+.textareacontent .textareaBox .textCount.data-v-50b7804f {
+  position: absolute;
+  font-size: 26rpx;
+  color: #999;
+  right: 32rpx;
+  top: 4rpx;
+}
+.textareacontent .textareaBox .textareaInput.data-v-50b7804f {
+  margin: 30rpx;
+}
+

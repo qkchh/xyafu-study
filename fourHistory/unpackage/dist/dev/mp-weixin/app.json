@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/read/read",
+    "pages/detail/detail",
+    "pages/index/introduce/introduce",
+    "pages/login/login",
+    "pages/editme/editme",
+    "pages/feedback/feedback",
+    "pages/mine/likes/likes",
+    "pages/mine/collect/collect",
+    "pages/mine/comment/comment",
+    "pages/privacy/privacy",
+    "pages/imprint/imprint",
+    "pages/about/about",
+    "pages/read/detail/detail",
+    "pages/search/search",
+    "pages/learn/learn",
+    "pages/webview/webview"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#434343",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/index-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/learn/learn",
+        "iconPath": "static/icon/learn.png",
+        "selectedIconPath": "static/icon/learn-patting.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/read/read",
+        "iconPath": "static/icon/dictionary.png",
+        "selectedIconPath": "static/icon/dictionary-fill.png",
+        "text": "图书"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my-fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

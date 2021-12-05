@@ -1,0 +1,211 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, 
+		{
+			"path": "pages/read/read",
+			"style": {
+				"navigationBarTitleText": "图书",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, 
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/index/introduce/introduce",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/editme/editme",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/mine/likes/likes",
+			"style": {
+				"navigationBarTitleText": "我的喜欢",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/mine/collect/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/mine/comment/comment",
+			"style": {
+				"navigationBarTitleText": "我的评论",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/privacy/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私政策",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/imprint/imprint",
+			"style": {
+				"navigationBarTitleText": "版本说明",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/read/detail/detail",
+			"style": {
+				"navigationBarTitleText": "书本介绍",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/learn/learn",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, 
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/mine/callme/callme",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "学习四史",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#434343",
+		"borderStyle": "#e7e7e7",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/index.png",
+				"selectedIconPath": "static/icon/index-fill.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/learn/learn",
+				"iconPath": "static/icon/learn.png",
+				"selectedIconPath": "static/icon/learn-patting.png",
+				"text": "学习"
+			},
+			{
+				"pagePath": "pages/read/read",
+				"iconPath": "static/icon/dictionary.png",
+				"selectedIconPath": "static/icon/dictionary-fill.png",
+				"text": "图书"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/my-fill.png",
+				"text": "我的"
+			}
+		]
+	}
+}

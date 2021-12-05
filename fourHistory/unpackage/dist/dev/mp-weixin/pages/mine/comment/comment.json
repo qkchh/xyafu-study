@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的评论",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

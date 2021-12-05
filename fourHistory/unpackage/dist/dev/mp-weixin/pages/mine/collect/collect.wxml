@@ -1,0 +1,1 @@
+<view class="content data-v-138d4702"><block wx:if="{{posts.length!=0}}"><view class="data-v-138d4702"><article-list vue-id="5e1c1a44-1" posts="{{posts}}" class="data-v-138d4702" bind:__l="__l"></article-list><view class="none data-v-138d4702">--没有更多了--</view></view></block><block wx:else><view class="collect data-v-138d4702">你还没有收藏内容，先去收藏一个吧</view></block></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "article-list": "/components/article-list/article-list",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}
